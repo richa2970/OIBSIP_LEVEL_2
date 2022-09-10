@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ 
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/16/15/25/christmas-1911637__340.jpg");
+  background-size: cover;
+}
+h1 {
+  padding: 14px;
+    text-align: center;
+    color: #1c8fcf;
+    font-size: 3rem;
+}
+
+button{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 1px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow:3px 4px solid rgba(72, 241, 10, 0.591);
+  background-color: yellow;
+
+}
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 1px;
+  cursor: pointer;
+}
+.button:hover{
+  box-shadow:3px 4px solid rgba(72, 241, 10, 0.591);
+  background-color: yellow;
+  transform: scale(1.3);
+}
+
+.textview {
+  width: 220px;
+  margin: 23px 12px -32px 12px;
+  font-size: 25px;
+  padding: 30px 30px 30px 2px;
+}
+
+.main {
+  position: absolute;
+  top: 148px;
+  left: 645px;
+  background: #f32195b3;
+  border-radius: 16px;
+  box-shadow: 10px 5px 5px 5px#7cf02980;
+  border-radius:  10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+}
